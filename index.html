@@ -1,109 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mythic Arcade</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <meta charset="utf-8">
+    <title>Zontal - Documentation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/304753542favicon.ico" type="image/x-icon">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/highlight/default.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    <!-- Cookie Consent Banner -->
-    <div id="cookie-consent-banner" style="display: none;">
-        <p>This website uses cookies to enhance your experience. By continuing to use this site, you agree to our <a href="#privacy-policy">Privacy Policy</a>.</p>
-        <button id="accept-cookies">Accept</button>
-    </div>
 
-    <header>
-        <h1>Mythic Arcade</h1>
-        <nav>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 mb-5">
+        <div class="row py-5">
+            <div class="col-12 text-center">
+                <img src="img/logo.png">
+                <h3 class="fw-bold text-white mb-3">Zontal v1.5 Documentation</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Section Start -->
+    <div class="container py-5">
+        <h1 class="fw-bold display-4">Installation</h1>
+        <p>Zontal would like to welcome you to our official Knowledge Base. In our efforts to continually improve our product and assistance, we've established this new knowledge base and are filling it with user and developer documentation.</p>
+
+        <h2 id="section-1-1" class="fw-bold mt-5">Follow the steps below to setup your site:</h2>
+        <ol>
+            <li class="mb-1">Unzip the downloaded package and open the /Zontal folder to find all the script files. You will need to upload these files to your hosting web server using FTP or localhost in order to use it on your website.</li>
+            <li>Below is the folder structure and needs to be uploaded to your website or localhost root directory:</li>
+        <!-- </ol> -->
+
+        <img src="img/doc/1.png">
+
+        <!-- <ol> -->
+            <li class="mb-2">You should upload all the files.
+            </li>
+            <li class="mb-2">Once you are done uploading, open your browser (Google Chrome is recommended).
+            </li>
+            <li class="mb-2">Go to <b>http://www.YOUTSITE.com/install</b>
+            </li>
+            <li class="mb-2">Agree the Terms of Use then click Next.</li>
+            <li class="mb-2">Important! Before we start the installation, please make sure you have the following installed on your server:            </li>
+        <!-- </ol> -->
+        <img src="img/doc/2.png" >
+        <!-- <ol> -->
+            <li class="mb-2">In the second page, make sure to fill the required data:            </li>
+            <img src="img/doc/3.png">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#privacy-policy">Privacy Policy</a></li>
-                <li><a href="#terms-of-service">Terms of Service</a></li>
-                <li><a href="#content-policy">Content Policy</a></li>
+                <li class="mb-2">Purchase Code - Envato purchase code.</li>
+                <li class="mb-2">SQL Host name - MySQL host name, e.g: localhost</li>
+                <li class="mb-2">SQL Username - MySQL username.</li>
+                <li class="mb-2">SQL Password - MySQL user password.</li>
+                <li class="mb-2">SQL Database - MySQL database name.</li>
+                <li class="mb-2">Site URL - Your Website URL, examples:
+                    <ul>
+                        <li>https://siteurl.com</li>
+                        <li>https://www.siteurl.com</li>
+                        <li>https://siteurl.com</li>
+                        <li>https://subdomain.siteurl.com</li>
+                        <li>http://localhost/</li>
+                        <li>https://siteurl.com/subfolder</li>
+                    </ul>
+                </li>
+                <li class="mb-2">Site Name - Your site name, max 32 characters.</li>
+                <li class="mb-2">Site Title - Your site title, max 100 characters.</li>
+                <li class="mb-2">Site E-mail - Your site email, ex: info@yourdomain.com, Gmail or Hotmail is not supported. It should be one of your server's emails.</li>
+                <li class="mb-2">Admin Password- Choose your admin password.</li>
             </ul>
-        </nav>
-    </header>
 
-    <!-- Ad placed after the header -->
-    <div style="text-align: center; margin: 20px 0;">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="YOUR-AD-CLIENT-ID"
-             data-ad-slot="YOUR-AD-SLOT-ID"
-             data-ad-format="auto"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </div>
+            <li class="mb-2">Once you have wrote the information, please click the install button and wait for a while, the installation process may take up to 5 minutes.</li>
+            <li class="mb-2">Your Website is Ready!            </li>
+            <img src="img/doc/4.png" >
+        </ol>
 
-    <main>
-        <section id="privacy-policy">
-            <h2>Privacy Policy</h2>
-            <p>Your privacy is important to us. This privacy policy explains how we collect, use, and protect your personal data when you use our platform.</p>
+        
 
-            <h3>1. Information We Collect</h3>
-            <p>We collect personal data such as your name, email address, and gameplay data when you create an account. We also collect non-personally identifiable information like your device type, IP address, and browsing activity to enhance user experience and for analytics purposes.</p>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-            <h3>2. How We Use Your Information</h3>
-            <p>Your data helps us provide personalized game recommendations, track your progress, and improve the platform's overall functionality. We may also use your contact details to notify you about important updates, offers, or changes to the platform.</p>
 
-            <h3>3. Data Protection</h3>
-            <p>We employ security measures, including encryption and firewalls, to protect your data. However, no system is completely secure, and we cannot guarantee the absolute security of your information.</p>
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/highlight/highlight.min.js"></script>
 
-            <h3>4. Cookies</h3>
-            <p>We use cookies to improve your experience. Cookies are small files placed on your device that help us remember your preferences and provide better functionality.</p>
-
-            <h3>5. Sharing Your Data</h3>
-            <p>We do not share your personal data with third parties without your consent unless required by law. Third-party services such as analytics tools and advertising networks may collect non-personal data to enhance your user experience.</p>
-
-            <h3>6. Your Rights</h3>
-            <p>You have the right to access, update, and delete your personal data. Please contact us at support@mythicarcade.com to exercise these rights.</p>
-        </section>
-
-        <section id="terms-of-service">
-            <h2>Terms of Service</h2>
-            <p>By using our platform, you agree to these terms and conditions. Please read them carefully before using our services.</p>
-
-            <h3>1. Account Creation</h3>
-            <p>You must create an account to access certain features of our platform. You agree to provide accurate and complete information when registering and to keep it updated.</p>
-
-            <h3>2. User Responsibilities</h3>
-            <p>You are responsible for maintaining the security of your account and for all activities that occur under your account. You must not share your login credentials or engage in activities that may harm the platform or other users.</p>
-
-            <h3>3. Content Usage</h3>
-            <p>All games and content on the platform are for personal, non-commercial use only. You may not redistribute, sell, or use the content for illegal purposes.</p>
-
-            <h3>4. Monetization</h3>
-            <p>The platform may include advertisements, in-app purchases, or subscription models. By using the platform, you agree to these monetization practices.</p>
-
-            <h3>5. Termination</h3>
-            <p>We reserve the right to suspend or terminate your account if you violate these terms or engage in fraudulent activities.</p>
-
-            <h3>6. Limitation of Liability</h3>
-            <p>We are not liable for any damages arising from your use of the platform, including, but not limited to, data loss, service interruptions, or third-party content.</p>
-
-            <h3>7. Modifications to the Terms</h3>
-            <p>We may update these terms periodically. Any changes will be posted on this page. Continued use of the platform after updates constitutes acceptance of the new terms.</p>
-        </section>
-
-        <section id="content-policy">
-            <h2>Content Policy</h2>
-            <p>We aim to maintain a safe and enjoyable environment for all users. Please adhere to the following guidelines when using our platform.</p>
-
-            <h3>1. Prohibited Content</h3>
-            <p>You are not allowed to upload, share, or distribute content that is illegal, offensive, or violates the rights of others. This includes but is not limited to hate speech, violence, harassment, and explicit material.</p>
-
-            <h3>2. User-Generated Content</h3>
-            <p>If you upload or create content, you retain ownership of it. However, by uploading content to our platform, you grant us a non-exclusive, royalty-free license to use, display, and distribute it within the platform.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Mythic Arcade. All rights reserved.</p>
-    </footer>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
